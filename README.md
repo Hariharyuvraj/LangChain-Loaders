@@ -7,7 +7,7 @@ The goal is to explore how to load different types of documents (PDF, TXT, web p
 
 ---
 
-## 📌 Features
+##  Features
 - Practice with different **LangChain loaders**:
   - `PyPDFLoader` – Load and extract text from PDF files
   - `TextLoader` – Load plain text files
@@ -16,7 +16,7 @@ The goal is to explore how to load different types of documents (PDF, TXT, web p
 
 ---
 
-## 🛠️ Requirements
+## 🛠 Requirements
 Install dependencies using:
 
 ```bash
@@ -24,11 +24,13 @@ pip install -r requirements.txt
 
 
 .
-├── loaders/                  # Document loader practice files
-│   ├── pdf_loader_practice.py
-│   ├── text_loader_demo.py
-│   ├── url_loader_demo.py
-│   └── directory_loader_demo.py
-├── requirements.txt          # Project dependencies
-├── README.md                 # Project documentation
+Notebooks                 # Document loader practice files
+1.PyPDF_loader.py
+2.text_loader.py
+3.webbase_loader.py
+4.Directory_loader_demo.py
+5.CSV_loader
+
+## requirements.txt          # Project dependencies
+## README.md                 # Project documentation
 
